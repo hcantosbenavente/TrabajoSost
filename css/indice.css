@@ -1,4 +1,14 @@
-h1{
+body {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);
@@ -6,9 +16,10 @@ h1{
     border-radius: 25px;
     background-color: rgb(17, 114, 240);
     width: fit-content;
-    align-content: center;
+    margin: 0 0 20px;
+    padding: 10px 20px;
 }
 
-body{
-    background-color: antiquewhite;
+main {
+    text-align: center;
 }
